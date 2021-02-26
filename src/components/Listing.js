@@ -11,6 +11,7 @@ import {
 import React from 'react';
 
 export default function Listing({ average, carDistribution }) {
+  console.log(carDistribution);
   const sorted = carDistribution.sort((a, b) =>
     a.distribution < b.distribution
       ? 1
