@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import './App.css';
 import { Container } from '@chakra-ui/react';
 import axios from 'axios';
 import Contact from './components/Contact';
